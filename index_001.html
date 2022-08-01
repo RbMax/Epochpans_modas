@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>Epochpans</title>
+  <link rel="stylesheet" href="libs/fontawesome5/css/all.min.css">
+  <link rel="stylesheet" href="libs/fontawesome5/css/v4-shims.min.css">
+  <link rel="stylesheet" href="libs/fancybox/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="compensate-for-scrollbar">
+      <div class="container">
+        <div class="dart_header">
+          <a href="#" class="logo">
+            <img src="img/full.svg" alt="Главная">
+          </a>
+          <div class="navbar_container">
+            <div class="top_row">
+              <div class="d-none d-xl-flex justify-content-between align-items-center">
+                <div class="icon_block address">
+                  <i class="fa fa-map-marker"></i>
+                  <span>Санкт-Петербург, ЛО</span>
+                </div>
+                <div class="icon_block phones">
+                  <i class="fa fa-phone"></i>
+                  <span>
+                    <a href="tel:88003508086">8 (800) 350-80-86</a>,
+                    <a href="tel:+79587714009">+7 (958) 771-40-09</a>
+                  </span>
+                </div>
+                <div class="icon_block">
+                  <i class="fa fa-clock-o"></i>
+                  <span class="timew">24/7</span>
+                </div>
+                <div class="b-button">
+                  <a href="#" class="dart_btn dart_btn-secondary dart_btn-sm" data-fancybox=""
+                    data-src="#popup-call">Заказать звонок</a>
+                </div>
+              </div>
+            </div>
+            <div class="bottom_row">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-none d-xl-flex">
+                  <ul class="header-nav">
+                    <li>
+                      <a href="#" class="header-parent-nav">Пансионаты</a>
+                      <ul class="header-inner-nav">
+                        <li><a href="#" class="first">Сосново</a></li>
+                        <li><a href="#" class="last">Парголово</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="header-parent-nav">Услуги</a>
+                      <ul class="header-inner-nav">
+                        <li><a href="#" class="first">Уход за постояльцами</a></li>
+                        <li><a href="#">Медицинское сопровождение</a></li>
+                        <li><a href="#">Реабилитация</a></li>
+                        <li><a href="#">Питание</a></li>
+                        <li><a href="#">Организация досуга</a></li>
+                        <li><a href="#">Помощь в оформлении социальных льгот</a></li>
+                        <li><a href="#" class="last">Оформление ИППСУ в пансионате</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Документы</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#" class="last">Контакты</a></li>
+                  </ul>
+                </div>
+                <div class="eye_block">
+                  <a href="#" class="d-inline-block text-10 fw-500 color-green text-uppercase bvi-open">
+                    <i class="fa fa-eye text-14"></i> Версия для слабовидящих
+                  </a>
+                </div>
+                <button class="burger _js_burger"><span></span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mobile_block">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <div class="phone">
+              <i class="fa fa-phone"></i>
+              <div class="text">
+                <a href="tel:88003508086">8 800 350 80 86</a>
+                <span>Звонок бесплатный</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <a href="#" class="dart_btn dart_btn-default dart_btn-block">Заказать звонок</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="burger-popup _js_burger-popup">
+      <div>
+        <!--<a href="#" class="header-enter">Войти</a>-->
+      </div>
+      <hr>
+      <ul class="burger-nav">
+        <li><a href="o-pansionate/" class="first burger-parent-nav">Пансионаты</a>
+          <ul class="burger-inner-nav">
+            <li><a href="o-pansionate/pansionat-sosnovo.html" class="first">Сосново</a></li>
+            <li><a href="o-pansionate/pansionat-pargolovo.html" class="last">Парголово</a></li>
+          </ul>
+        </li>
+        <li><a href="uslugi/" class="burger-parent-nav">Услуги</a>
+          <ul class="burger-inner-nav">
+            <li><a href="uslugi/uhod-za-bolnymi-dementsiey.html" class="first">Уход за постояльцами</a></li>
+            <li><a href="uslugi/vosstanovlenie-posle-travm.html">Медицинское сопровождение</a></li>
+            <li><a href="uslugi/uhod-za-bolnymi-sindromom-altsgeymera.html">Реабилитация</a></li>
+            <li><a href="uslugi/uhod-za-bolnymi-posle-insulta.html">Питание</a></li>
+            <li><a href="uslugi/uhod-za-bolnymi-saharnym-diabetom.html">Организация досуга</a></li>
+            <li><a href="uslugi/uhod-za-bolnymi-s-boleznyu-parkinsona.html">Помощь в оформлении социальных льгот</a>
+            </li>
+            <li><a href="uslugi/oformlenie-ipsu-v-pansionate.html" class="last">Оформление ИППСУ в пансионате</a></li>
+          </ul>
+        </li>
+        <li><a href="dokumenty.html">Документы</a></li>
+        <li><a href="galereya.html">Галерея</a></li>
+        <li><a href="kontakty.html" class="last">Контакты</a></li>
+      </ul>
+      <hr>
+      <!--<div class="mb-5">
+          <a href="#" class="btn btn--sm">Оплата проживания</a>
+      </div>-->
+      <div class="mb-5">
+        <div class="info-block">
+          <div class="info-content">
+            <i class="fa fa-phone"></i>
+            <div class="text">
+              <div>
+                <a href="tel:88003508086" class="contact-tel"> 8 (800) 350-80-86</a>
+              </div>
+              <div>
+                <a href="#" class="link-call" data-fancybox="" data-src="#popup-call">Заказать звонок</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-5">
+        <div class="info-block">
+          <div class="info-content">
+            <i class="fa fa-clock-o"></i>
+            <div class="text">
+              <span class="timew">24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <main class="main">
+      <!-- MAIN SECTION -->
+      <section class="main_section with-form img_main_s">
+        <div class="caption">
+          <div class="container-fluid">
+            <div class="caption-content">
+              <h1>«Эпоха» - пансионаты для пожилых людей</h1>
+              <p>Дома престарелых находятся в Санкт-Петербурге и Ленинградской области. Пансионаты предоставят комфортное проживание для: пенсионеров, одиноких стариков и инвалидов. </p>
+              <!-- MAIN ADVANTAGES-->
+              <div class="main_advantages d-sm-flex flex-wrap ">
+                <div class="item">
+                  <span class="title">Круглосуточное социально-медицинское сопровождение</span>
+                </div>
+                <div class="item ">
+                  <span class="title ">Уход за больными деменцией</span>
+                  <span class="desc">Уход за лежачими больными</span>
+                </div>
+                <div class="item ">
+                  <span class="title ">Цена от 1390р за сутки</span>
+                </div>
+                <div class="item">
+                  <span class="title">Лечебная физкультура</span>
+                  <span class="desc">Большая территория для прогулок</span>
+                </div>
+              </div>
+              <!--/ MAIN ADVANTAGES-->
+               <div class="d-flex align-items-center add_blocks">
+                <div class="vakcine_block">
+                <img src="img/mask.png" alt="ВСЕ НАШИ СОТРУДНИКИ ВАКЦИНИРОВАНЫ">
+                <span>
+                  ВСЕ НАШИ СОТРУДНИКИ<br> ВАКЦИНИРОВАНЫ
+                </span>
+               </div>
+               <a href="#" class="dart_btn dart_btn-default form_replacer" data-fancybox data-src="#popup-call">Оставить заявку</a>
+               <a href="#" class="dart_btn dart_btn-info-w">Работа у нас</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- / MAIN SECTION -->
+
+      <!-- SLIDER SECTION -->
+      <section class="slider_section">
+        <div class="container">
+          <div class="pans_slider owl-carousel">
+            <!-- item -->
+            <div class="item">
+              <div class="image">
+                <img src="img/pans_1.jpg" alt="">
+                <div class="meta">
+                  <span>От 1 250 руб.</span>
+                </div>
+              </div>
+              <div class="text">
+                <a href="#" class="title">Пансионат для пожилых людей "Эпоха Сосново"</a>
+                <p>Ленинградская область, М.Р-Н ПРИОЗЕРСКИЙ, С.П. СОСНОВСКОЕ, П СОСНОВО, УЛ ДОРОЖНАЯ, Д. 27, КОМ. 2</p>
+                <a href="#" class="more">
+                  <span>Подробнее</span>
+                  <i class="dart_icon arrow"></i>
+                </a>
+              </div>
+            </div>
+            <!-- / item -->
+            <!-- item -->
+            <div class="item">
+              <div class="image">
+                <img src="img/pans_2.jpg" alt="">
+                <div class="meta">
+                  <span>От 1 790 руб.</span>
+                </div>
+              </div>
+              <div class="text">
+                <a href="#" class="title">Пансионат для пожилых людей "Эпоха Парголово"</a>
+                <p>Ленинградская область, М.Р-Н ПРИОЗЕРСКИЙ, С.П. СОСНОВСКОЕ, П СОСНОВО, УЛ ДОРОЖНАЯ, Д. 27, КОМ. 2</p>
+                <a href="#" class="more">
+                  <span>Подробнее</span>
+                  <i class="dart_icon arrow"></i>
+                </a>
+              </div>
+            </div>
+            <!-- / item -->
+            <!-- item -->
+            <div class="item">
+              <div class="image">
+                <img src="img/pans_1.jpg" alt="">
+                <div class="meta">
+                  <span>От 1 250 руб.</span>
+                </div>
+              </div>
+              <div class="text">
+                <a href="#" class="title">Пансионат для пожилых людей "Эпоха Сосново"</a>
+                <p>Ленинградская область, М.Р-Н ПРИОЗЕРСКИЙ, С.П. СОСНОВСКОЕ, П СОСНОВО, УЛ ДОРОЖНАЯ, Д. 27, КОМ. 2</p>
+                <a href="#" class="more">
+                  <span>Подробнее</span>
+                  <i class="dart_icon arrow"></i>
+                </a>
+              </div>
+            </div>
+            <!-- / item -->
+            <!-- item -->
+            <div class="item">
+              <div class="image">
+                <img src="img/pans_2.jpg" alt="">
+                <div class="meta">
+                  <span>От 1 790 руб.</span>
+                </div>
+              </div>
+              <div class="text">
+                <a href="#" class="title">Пансионат для пожилых людей "Эпоха Парголово"</a>
+                <p>Ленинградская область, М.Р-Н ПРИОЗЕРСКИЙ, С.П. СОСНОВСКОЕ, П СОСНОВО, УЛ ДОРОЖНАЯ, Д. 27, КОМ. 2</p>
+                <a href="#" class="more">
+                  <span>Подробнее</span>
+                  <i class="dart_icon arrow"></i>
+                </a>
+              </div>
+            </div>
+            <!-- / item -->
+          </div>
+        </div>
+      </section>
+      <!-- / SLIDER SECTION -->
+      <!-- HOW SECTION -->
+      <section class="dart-def-dection dart_how">
+        <div class="container">
+          <h2>Как к нам попасть?</h2>
+          <div class="steps">
+            <div class="row">
+              <!-- item -->
+              <div class="col-lg-6 step-wrap">
+                <div class="step">
+                  <span class="number">01</span>
+                  <div class="image">
+                    <img src="img/step_1.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <span class="title">Свяжитесь с нами</span>
+                    <p>Позвоните нашему менеджеру или заполните форму обратной связи и укажите удобное время для звонка
+                      нашего менеджера.</p>
+                  </div>
+                  <img src="img/how_arrows.svg" alt="" class="arrow">
+                </div>
+              </div>
+              <!-- / item -->
+              <!-- item -->
+              <div class="col-lg-6 step-wrap">
+                <div class="step">
+                  <span class="number">02</span>
+                  <div class="image">
+                    <img src="img/step_2.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <span class="title">Выберите услуги</span>
+                    <p>Получите консультацию и выберите подходящий пансионат и пакет услуг.</p>
+                  </div>
+                  <img src="img/how_arrows.svg" alt="" class="arrow">
+                </div>
+              </div>
+              <!-- / item -->
+              <!-- item -->
+              <div class="col-lg-6 step-wrap">
+                <div class="step">
+                  <span class="number">03</span>
+                  <div class="image">
+                    <img src="img/step_3.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <span class="title">Знакомство</span>
+                    <p>Приезжайте в пансионат для знакомства или получите видеообзор дистанционно.</p>
+                  </div>
+                  <img src="img/how_arrows.svg" alt="" class="arrow">
+                </div>
+              </div>
+              <!-- / item -->
+              <!-- item -->
+              <div class="col-lg-6 step-wrap">
+                <div class="step">
+                  <span class="number">04</span>
+                  <div class="image">
+                    <img src="img/step_4.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <span class="title">Ваши документы</span>
+                    <p>Соберите документы для заезда. Мы поможем.</p>
+                  </div>
+                  <img src="img/how_arrows.svg" alt="" class="arrow">
+                </div>
+              </div>
+              <!-- / item -->
+              <!-- item -->
+              <div class="col-lg-6 step-wrap">
+                <div class="step">
+                  <span class="number">05</span>
+                  <div class="image">
+                    <img src="img/step_5.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <span class="title">Мы заедем</span>
+                    <p>Сообщите нам удобное время и адрес. Мы организуем трансфер.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- / item -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / HOW SECTION -->
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row mb-n6">
+          <div class="col-12 col-sm-8 col-lg mb-6">
+            <a href="https://epochpans.ru/" class="logo mr-5">
+              <img src="img/full_white.svg" alt="Пансионат Сосново">
+            </a>
+            <div class="text-12 fw-100 color-grey mt-3">
+              <p>2021. Все права защищены</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg mb-6 d-flex flex-column text-lg-right order-last order-sm-0 order-lg-last">
+            <div class="">
+              <div class="info-block">
+                <div class="info-content">
+                  <i class="fa fa-phone"></i>
+                  <div class="text">
+                    <div>
+                      <a href="tel:88003508086" class="contact-tel"> 8 (800) 350-80-86</a>
+                    </div>
+                    <div>
+                      <a href="#" class="link text-12 color-grey" data-fancybox="" data-src="#popup-call">Заказать
+                        звонок</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="info-content">
+                <i class="fa fa-clock-o"></i>
+                <div class="text">
+                  <span class="timew">24/7</span>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="mt-3">
+					<a href="#" class="btn btn--sm">Оплата проживания</a>
+				</div> -->
+            <div class="mt-auto">
+              <a href="politika-konfidentsialnosti.html" class="link text-12 color-grey">Политика конфиденциальности</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg mb-6">
+            <div class="text-18 mb-2">Навигация</div>
+            <ul class="footer-nav">
+              <li><a href="dokumenty.html">Документы</a></li>
+              <!--<li><a href="otzyvy.html">Отзывы</a></li>-->
+              <li><a href="galereya.html">Галерея</a></li>
+              <li><a href="kontakty.html">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-lg mb-6">
+            <div class="text-18 mb-2">О пансионате</div>
+            <ul class="footer-nav">
+              <!--<li><a href="otzyvy.html">Отзывы</a></li>-->
+              <li><a href="dokumenty.html">Документы</a></li>
+              <li><a href="galereya.html">Фото</a></li>
+              <!--<li><a href="personal.html">Персонал</a></li>-->
+            </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-lg mb-6">
+            <div class="text-18 mb-2">Услуги</div>
+            <ul class="footer-nav">
+              <li><a href="uslugi/uhod-za-bolnymi-dementsiey.html" class="first">Уход за постояльцами</a></li>
+              <li><a href="uslugi/vosstanovlenie-posle-travm.html">Медицинское сопровождение</a></li>
+              <li><a href="uslugi/uhod-za-bolnymi-sindromom-altsgeymera.html">Реабилитация</a></li>
+              <li><a href="uslugi/uhod-za-bolnymi-posle-insulta.html" class="last">Питание</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="libs/JQuery/jquery-3.6.0.min.js"></script>
+  <script src="libs/fancybox/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
